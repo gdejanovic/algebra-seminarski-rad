@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JavaScript chat by Goran Dejanovic</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+</head>
+<img>
+  <div class="content">
+    <div class="messages">
+    </div>
+    <form class="footer" onsubmit="return false;">
+      <input type="text" placeholder="Type your message..">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <template data-template="message">
+    <div class="message">
+      <div class="message__name"></div>
+      <div class="message__bubble"></div>
+    </div>
+  </template>
+  <div class="qr">
+    <h5></h5>
+    <img  id="imgqr"></div>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <script src="script.js" type="module"></script>
+
+</body>
+</html>
